@@ -1,0 +1,74 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 500px;
+}
+
+.form__fieldWrapper {
+  position: relative;
+}
+
+.form__fieldWrapper--option {
+  margin-right: 20px;
+}
+
+.form__field {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.form__fieldError {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+}
+
+.form__field--sub {
+  padding: 5px 15px;
+}
+
+.form__field--option {
+  padding: 5px 15px;
+}
+
+.form__subFieldsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.form__optionWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.form__buttonsContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.form__buttonsContainer button {
+  margin-left: 20px;
+}
+
+.typeField {
+  margin-bottom: 20px;
+}
+
+.typeField__control {
+  border-color: gray !important;
+}
+
+.optionButton {
+  align-self: flex-start;
+  padding: 5px 10px;
+}
